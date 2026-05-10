@@ -1,32 +1,39 @@
 # Diseno-de-Bases-de-Datos
-____________________________________________________________________________________________________________________________________
+
 # **CARRERAS**
-____________________________________________________________________________________________________________________________________
-## Listado de Entidades
-____________________________________________________________________________________________________________________________________
+
+## **Listado de Entidades**
+
 ### carreras (ED)
 * carrera_id **(PK)**
 * nombre
 * tipo_carrera **(FK)**
-fecha
-tiempo
-mejor_tiempo
-altitud
-lugar
-pais (FK)
-foto
-tipos_carreras (EC)
-tipo_carrera_id (PK)
-descripcion
-distancia (UQ)
-paises (EC)
-pais_id (PK)
-nombre
-Relaciones
-Una carrera pertenece a un tipo de carrera (1 a M).
-Una carrera se corre en un país (1 a M).
-Diagramas
-Modelo Entidad - Reación
+* fecha
+* tiempo
+* mejor_tiempo
+* altitud
+* lugar
+* pais **(FK)**
+* foto
+### tipos_carreras **(EC)**
+* tipo_carrera_id **(PK)**
+* descripcion
+* distancia **(UQ)**
+### paises **(EC)**
+* pais_id **(PK)**
+* nombre
+
+## **Relaciones**
+____________________________________________________________________________________________________________________________________
+1. Una **carrera** pertenece a un **tipo de carrera** _(1 a M)._
+2. Una **carrera** se corre en un **país** _(1 a M)._
+   
+## **Diagramas**
+____________________________________________________________________________________________________________________________________
+### Modelo Entidad - Reación
+
+1[image](https://github.com/user-attachments/assets/06224038-091a-4af6-b509-d7f16f76fa55)
+
 Modelo Entidad - Reación
 
 Modelo Relacional de la BD
