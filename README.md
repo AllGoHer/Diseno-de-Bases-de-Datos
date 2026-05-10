@@ -32,7 +32,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________
 ### Modelo Entidad - Reación
 
-1[image](https://github.com/user-attachments/assets/06224038-091a-4af6-b509-d7f16f76fa55)
+![image](https://github.com/user-attachments/assets/06224038-091a-4af6-b509-d7f16f76fa55)
 
 Modelo Entidad - Reación
 
